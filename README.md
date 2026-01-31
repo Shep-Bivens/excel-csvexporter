@@ -1,4 +1,4 @@
-# CSV Exporter -- Excel VBA Add-In
+# CSV Exporter  --  Excel VBA Add-In
 
 Lightweight tool to export ranges within an Excel sheet to CSV.
 
