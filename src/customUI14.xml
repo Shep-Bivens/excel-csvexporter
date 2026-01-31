@@ -1,0 +1,16 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabCSVExporterVNext" label="CSV Exporter">
+        <group id="grpCSVExporterVNext" label="CSV Exporter vNext">
+          <button
+            id="btnShowCSVExporterVNext"
+            label="Export CSV…"
+            imageMso="ExportTextFile"
+            size="large"
+            onAction="Ribbon_ShowExporter"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

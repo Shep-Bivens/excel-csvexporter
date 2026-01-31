@@ -6,7 +6,8 @@ See the project [wiki](https://github.com/bskinn/excel-csvexporter/wiki) for doc
 
 The binary `.xlam` file for each release can be found on the GitHub page for that release.
 
-Copyright (c) Brian Skinn 2016-2022
+Copyright (c)      Brian Skinn 2016-2022
+Modifications (c)  Shep Bivens 2026
 
 License: The MIT License  
 See [`LICENSE.txt`](https://github.com/bskinn/excel-csvexporter/blob/main/LICENSE.txt) for full license terms.
