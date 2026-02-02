@@ -6,19 +6,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased]
+### [1.3.0] - 2026-02-01
 
-### Added
+#### Added
 - Tab delimiter option
 - UTF-8 and UTF-8 with BOM output encoding
 - Excel-compatible quoting mode (“As Needed”)
 - Choice of using cell number formats or custom formats
 
-### Changed
+#### Changed
 - Improved CSV output to better match Excel behavior
 - UI usability improvements and validation
 
-### Fixed
+#### Fixed
 - Correct handling of empty cells
 - Eliminated extra output columns when exporting full-sheet selections
 
