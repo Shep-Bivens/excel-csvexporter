@@ -1,12 +1,12 @@
-# CSV Exporter  --  Excel VBA Add-In
+# CSV Exporter -- Excel VBA Add-In
 
 Lightweight tool to export ranges within an Excel sheet to CSV.
 
-See the project [wiki](https://github.com/bskinn/excel-csvexporter/wiki) for documentation, installation instructions, etc.
+See the project [wiki](https://github.com/shep-bivens/excel-csvexporter/wiki) for documentation, installation instructions, etc.
 
 The binary `.xlam` file for each release can be found on the GitHub page for that release.
 
-Copyright (c)      Brian Skinn 2016-2022
+Copyright (c)      Brian Skinn 2016-2022  
 Modifications (c)  Shep Bivens 2026
 
 License: The MIT License  
