@@ -9,18 +9,45 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### [1.3.0] - 2026-02-01
 
 #### Added
-- Tab delimiter option
-- UTF-8 and UTF-8 with BOM output encoding
-- Excel-compatible quoting mode (“As Needed”)
-- Choice of using cell number formats or custom formats
+- **Option to use each output cell’s number format**  
+  Each cell is output using the same number format that is used to
+  display the value in the Excel worksheet.
+- **Option to quote only values that require quoting**  
+  A cell value is quoted only if it contains a quote, a
+  separator, a carriage return, or a line feed.  
+  This behavior matches Excel’s CSV output.
+- **Option to use tab or blank as the separator**
+- **Choice of output encoding**  
+  ANSI, UTF-8, or UTF-8 with BOM.
+- **File overwrite warning**  
+  If append-to-file is not selected and an export would overwrite an
+  existing file, a warning is displayed allowing the user to overwrite
+  the file or cancel the export.
+- **Warning for non-ANSI output with ANSI encoding selected**  
+  If an export requires a non-ANSI character while ANSI encoding is
+  selected, a warning message is displayed and no file is written or
+  appended.
+- **Settings persistence**  
+  Current settings (folder, filename, format selection, etc.) are saved
+  each time **Export** or **Close** is clicked and are restored when the
+  exporter is loaded.  
+  When closing with **Ctrl-Close**, the user is given the option to
+  remove saved settings and close, save settings and close, or return to the
+  exporter.
+- **Context-sensitive help (up to two lines)**  
+  When a Shift key is held down and the cursor is moved over an item in
+  the exporter UI, help text for that item is displayed at the bottom of
+  the exporter.
 
 #### Changed
-- Improved CSV output to better match Excel behavior
-- UI usability improvements and validation
+- **Separator warnings**  
+  A warning is issued only if a separator appears in an output value
+  *and* the value is not quoted.
 
 #### Fixed
-- Correct handling of empty cells
-- Eliminated extra output columns when exporting full-sheet selections
+- **Extra output columns**  
+  Eliminated extra output columns when exporting a full-sheet selection
+  or a full-row selection.
 
 
 ### [1.2.2] - 2022-03-10
